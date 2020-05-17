@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "outDir": "build",
+    "module": "esnext",
+    "target": "es5",
+    "lib": ["es5"],
+    "sourceMap": true,
+    "allowJs": true,
+    "declaration": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "build"]
+}
